@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StatsService } from "../stats.service";
 
 @Component({
   selector: 'app-button',
@@ -7,18 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-  public score = 0;
-
-  //statsService
-
-  constructor() {
+  constructor(private statsService: StatsService) {
   }
 
   ngOnInit(): void {
   }
 
   clickedButton(): void {
-
+    this.statsService.incrementScore();
   }
 
 }

@@ -15,6 +15,7 @@ export class StatsService {
   }
   incrementScore(): void {
     this.score++;
+    console.log(this.score);
   }
   increaseScore(amount: number): void {
     this.score += amount;
