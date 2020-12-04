@@ -15,7 +15,6 @@ export class ButtonComponent implements OnInit {
 
   }
 
-
   ngOnInit(): void {
     this.statsService.setScore(parseInt(JSON.parse(<string>localStorage.getItem("points"))));
     this.statsService.setPointsPerClick(parseInt(JSON.parse(<string>localStorage.getItem("pointsPerClick"))));
@@ -28,6 +27,5 @@ export class ButtonComponent implements OnInit {
     localStorage.setItem("points", this.score.toString());
     localStorage.setItem("pointsPerClick", this.pointsPerClick.toString());
   }
-
 }
 
