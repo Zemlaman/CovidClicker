@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-  constructor() { }
+  public score = 0;
+
+  //statsService
+
+  constructor() {
+  }
 
   ngOnInit(): void {
+  }
+
+  clickedButton(): void {
+
   }
 
 }
