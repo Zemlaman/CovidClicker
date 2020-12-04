@@ -23,4 +23,10 @@ export class StatsService {
   decreaseScore(amount: number): void {
     this.score -= amount;
   }
+  setScore(amount: number): void {
+    this.score = amount;
+  }
+  setPointsPerClick(amount: number): void {
+    this.pointsPerClick = amount;
+  }
 }
