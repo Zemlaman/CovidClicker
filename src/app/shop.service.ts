@@ -2,14 +2,17 @@ import { Injectable } from '@angular/core';
 import items from '../items/items.json';
 import {InventoryService} from './inventory.service';
 import {StatsService} from './stats.service';
+import {Item} from './item';
+
 @Injectable({
   providedIn: 'root'
 })
 export class ShopService {
-  private items: Item[] = items;
+  private items: Item[] = [];
   constructor(private inventoryService: InventoryService, private statsService: StatsService) { }
   public getAllItems(): Item[]  {
-    return items;
+
+    return this.items;
   }
   public buyItem(item: Item, currentScore: number): void {
     if (currentScore >= item.getPrice()){
@@ -19,6 +22,4 @@ export class ShopService {
         alert('You need more score to purchase this item');
     }
   }
-
-
 }

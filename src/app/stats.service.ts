@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class StatsService {
-  private pointsPerClick = 1; // Points Per Click
+  private pointsPerClick = 1;
   private score = 0;
   constructor() { }
   getPointsPerClick(): number {

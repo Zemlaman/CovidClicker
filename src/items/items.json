@@ -72,4 +72,44 @@
     "icon": 2,
     "description": "Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah."
   }
+,
+  {
+    "name": "Virusbomb",
+    "price": 200,
+    "pointsPerClick": 20,
+    "clicksPerSecond": 2,
+    "boughtTimes": 0,
+    "icon": 2,
+    "description": "Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah."
+  }
+,
+  {
+    "name": "Virusbomb",
+    "price": 200,
+    "pointsPerClick": 20,
+    "clicksPerSecond": 2,
+    "boughtTimes": 0,
+    "icon": 2,
+    "description": "Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah."
+  }
+,
+  {
+    "name": "Virusbomb",
+    "price": 200,
+    "pointsPerClick": 20,
+    "clicksPerSecond": 2,
+    "boughtTimes": 0,
+    "icon": 1,
+    "description": "Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah."
+  }
+,
+  {
+    "name": "Virusbomb",
+    "price": 200,
+    "pointsPerClick": 20,
+    "clicksPerSecond": 2,
+    "boughtTimes": 0,
+    "icon": 1,
+    "description": "Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah."
+  }
 ]

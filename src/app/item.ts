@@ -1,4 +1,4 @@
-class Item {
+export class Item {
   private name: string;
   private description: string;
   private boughTimes: number;
@@ -25,6 +25,10 @@ class Item {
   }
   getName(): string {
     return this.name;
+  }
+
+  getIcon(): number {
+    return this.icon;
   }
   getClicksPerSecond(): number {
     return this.clicksPerSecond;

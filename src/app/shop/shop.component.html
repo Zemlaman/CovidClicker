@@ -1,1 +1,4 @@
-<p>shop works!</p>
+<div id="shop">
+<div id="icon{{item.getIcon()}}" class="shopBtn" (mouseover)="showDescription(itemDesc)" (mouseleave)="hideDescription(itemDesc)" *ngFor="let item of this.shopService.getAllItems()">
+  <p #itemDesc class="description">{{item.getName()}}<br><br>{{item.getDescription()}}</p></div>
+</div>

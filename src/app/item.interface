@@ -1,0 +1,9 @@
+export interface ItemInterface {
+  name: string;
+  price: number;
+  clicksPerSecond: number;
+  boughtTimes: number;
+  description: string;
+  pointsPerClick: number;
+  icon: number;
+}
