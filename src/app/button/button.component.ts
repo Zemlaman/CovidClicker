@@ -27,7 +27,5 @@ export class ButtonComponent implements OnInit {
     localStorage.setItem("points", this.score.toString());
     localStorage.setItem("pointsPerClick", this.pointsPerClick.toString());
   }
-
-  // sadikoainoppibdpsuidbusiadasjd
 }
 
